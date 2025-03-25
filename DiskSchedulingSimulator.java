@@ -30,7 +30,7 @@ public class DiskSchedulingSimulator {
             int minDist = Integer.MAX_VALUE;
             int closestRequest = -1;
 
-            // Find the closest unvisited request
+        
             for (int j = 0; j < requests.length; j++) {
                 if (!visited[j]) {
                     int dist = Math.abs(requests[j] - currentHead);
